@@ -1,0 +1,32 @@
+p::first-letter {
+  font-size: 250%;
+  font-weight: 600;
+  color: #499;
+}
+
+.nav a:hover {
+  background: yellow;
+}
+
+/*#disabled {
+  text-decoration: none;
+  cursor: default;
+  pointer-events: none;
+}*/
+
+.alert {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: initial;
+  margin-top: 50px;
+}
+
+button {
+  background: crimson;
+  padding: 12px 20px;
+  font-size: 25px;
+  border-radius: 2%;
+  border: 0;
+  cursor: pointer;
+  color: mistyrose;
+}
